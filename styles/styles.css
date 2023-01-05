@@ -22,7 +22,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 51px 212px;
+    padding: 51px 212px;
 
 }
 
@@ -247,4 +247,7 @@ font-size: 35px;
 }
 input{
     height: 64px;
+}
+.contact a{
+    text-decoration: none;
 }
