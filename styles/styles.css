@@ -16,6 +16,9 @@
 }
 
 /* Header and Navigation */
+.header{
+    margin-top: 0;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -216,4 +219,32 @@ margin-bottom: 30px;
     color: #181818;
     font-weight: 700;
 font-size: 35px;
+}
+
+/* contact section */
+
+
+
+.contact{
+    display: flex;
+    background: #FFF8F3;
+    gap: 100px;
+    padding: 130px 200px;
+    
+}
+.section-description{
+
+    color: #474747;
+    margin-bottom: 30px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="text"],input[type="email"],textarea{
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 64px;
 }
